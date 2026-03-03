@@ -1,0 +1,9 @@
+# Data directory: ignore common data file formats, keep README.md
+data/**/*.csv
+data/**/*.pkl
+data/**/*.h5ad
+data/**/*.pt
+data/**/*.zip
+
+# Model directory: ignore model weights
+model/**/*.pt
