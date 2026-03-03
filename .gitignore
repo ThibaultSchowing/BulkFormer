@@ -7,3 +7,9 @@ data/**/*.zip
 
 # Model directory: ignore model weights
 model/**/*.pt
+
+# Jupyter notebook checkpoints
+**/.ipynb_checkpoints/
+
+# Python bytecode cache
+**/__pycache__/
